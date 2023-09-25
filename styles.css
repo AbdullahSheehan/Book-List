@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 70%;
+}
+
+input{
+    width: 100%;
+    margin-top: 5px;
+}
+#isbn {
+    display: block;
+}
+tr td:last-child {
+    color: #0091ff;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#error, #addsuccess, #removesuccess {
+    padding: 10px;
+    color: white;
+    margin-bottom: 20px;
+    display: none;
+}
+#error {
+    background: red;
+}
+#addsuccess, #removesuccess {
+    background: green;
+}
